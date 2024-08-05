@@ -23,9 +23,49 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
-
 Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
 
 *Ref 1: Network Diagram*
+++++++++++++++++++++++++++++++++++++++++++++++++
+*NOTES*
+1. create draw.io account
+NOTES:
+LimaCharlie: EDR
+enrol
+Slack: Like teams
+Vulture: Virtual Machine(Don't forget to cancel)
+
+
+
+IMPORTANT SKILLS
+Use of EDR
+Creating detection from events that happened(installation of lazagne)
+
+Create draw.io diagram
+Create Vulture (VM)
+Create LimaCharlie
+Enroll vm in edr
+
+
+system we joined to the edr
+
+Go to github to install lazagne.exe
+
+Limacharlie new process creation
+Create detection from building off of new event
+
+-Looking at events
+-operators: and
+And so on
+
+You can even test your detection by pasting the event in the field and it will check is you detection works
+How did you make the detection? Used an existing rule that was provided by limaCharlie for windows process creation credentidtials (with also the rule supplied on github) and modify it to fit my use case. Better to change an existing rule because you can follow the format and take a look at the field names that was used
+proof of detection working
+Create and ensure slack connects to limacharlie
+Create Tines
+Connect the two
+Grab the WEBHOOK
+
+
